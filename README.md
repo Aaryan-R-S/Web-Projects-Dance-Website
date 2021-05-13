@@ -53,6 +53,7 @@ This is a Dance website made using pure CSS, JS and Node.js for practice purpose
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/default.asp)
 * [JavaScript](https://www.javascript.com/)
+* [Pug](https://pugjs.org/api/getting-started.html)
 * [Node.js](https://nodejs.org/en/)
 * [Mongo DB](https://www.mongodb.com/)
 * [Mongoose](https://mongoosejs.com/)
@@ -79,7 +80,7 @@ To get a local copy up and running follow these simple steps.
 - Install Node.js ([Click here](https://nodejs.org/en/download/))
 - Install Mongo DB ([Click here](https://docs.mongodb.com/manual/installation/))
 - ```powershell
-  npm install mongoose
+  npm install
 
   ```
 
