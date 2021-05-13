@@ -1,0 +1,19 @@
+Refer Web dev Course TUT #75-79 + later 1 more lecture in mongodb #Bootstrap
+
+  OR
+
+Make a folder-- Project3 Dance Site
+
+Make a file-- backend.js   (Use html OR pug!)
+
+Open Terminal & install following by typing--
+
+(Ensure terminal is showing -- PS D:\My Files\Complete Web Wevelopment Bootcamp\Project3 Dance Site>  type below codes HERE!)
+
+    1. npm init
+    2. npm install express
+    3. npm install pug
+    4. npm install mongoose
+    (no nodemon as it is pre installed globally)
+
+Code from sites or projects

@@ -1,0 +1,7 @@
+  Enroller's Details -- 
+    Name : Pinky
+    Age : 20 years old
+    Gender : Female 
+    City : Raipur , India
+    Contact No. : 93134333555
+    Email Id : pinky817@gmail.com   

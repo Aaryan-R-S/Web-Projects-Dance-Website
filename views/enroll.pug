@@ -1,0 +1,26 @@
+extends layout.pug
+
+block scripts
+  script(src='/files/js.js')
+
+block style
+  style
+   include ../files/css.css
+   include ../files/csse.css
+
+block content 
+     div#login
+      a(href="/login")
+        img(src="/files/enter.png" href="/login" target="blank")
+     img(src="/files/bg1.jpg", alt="Oops")
+     H1 Buddy !....Enroll Now !
+     form(action="/enroll", method="POST")
+        div
+          input(type="text" name="name" placeholder= "Enter Your Name")
+          input(type="number" name="age" placeholder= "Enter Your Age")
+          input(type="text" name="gender" placeholder= "Enter Your Gender")
+          input(type="text" name="city" placeholder= "Enter Your City")
+          input(type="number" name="contact" placeholder= "Enter Your Mobile Number")
+          input(type="email" name="email" placeholder="Enter Your Email Id ")
+          button(type="submit" style="background-color:yellow;" onclick="a()") Enroll Now
+          button(type="reset" style="background-color:goldenrod;") Reset Form

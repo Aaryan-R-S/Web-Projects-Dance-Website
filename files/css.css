@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Serif Pro', serif;
+    /* color: white; */
+}
+#login img{
+    display: inline-block;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+    animation-name: border;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 50px;
+}
+@keyframes border{
+    0% {
+        border: 2px solid gold;
+    }
+
+    25% {
+        border: 3px solid gold;
+    }
+
+    50% {        
+        border: 4px solid gold;
+    }
+
+    75% {
+        border: 5px solid gold;
+    }
+
+    100% {
+        border: 6px solid gold;
+    }
+}
+
+section{
+    background-color: black;
+}
+
+nav{
+    background-color: rgba(5, 5, 5, 0.644);
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+#logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    margin-right: 60px;
+    margin-top: 4px;
+}
+ul img{
+    height: 40px;
+    width: 40px;
+    filter: invert(1);
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5px;
+    margin: 10px 25px;
+    padding: 5px 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+nav li a:hover{
+    font-size: 22px;
+    cursor: grab;
+    border:2px solid gold;
+    border-radius: 8px;
+}
+
+#sec1{
+    background:no-repeat center center/cover url('/files/bg1.jpg');
+    color: white;
+    font-size: 44px;
+    height: 100px;
+    padding: 120px 100px;
+    background-color: black;
+}
+
+#sec1 div{
+    font-family: 'Roboto Condensed', sans-serif ;
+    text-decoration: underline wavy gold;
+}
+
+#high:hover{
+    font-size: 48px;
+    cursor: grab;
+}
+
+#low{
+    font-size: 32px;
+}
+
+#sec2{
+    padding-top: 10px ;
+    margin-top: 4px;
+    height: 320px;
+    background:no-repeat center center/cover url('/files/bg2.jpg');
+    font-size: 36px;
+    text-decoration: underline gold;
+    color: white;
+}
+#secc2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.card{
+    padding: 20px;
+    margin: 10px 20px;
+    background-color: rgb(83 75 75 / 46%);
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    height: 190px;
+    width: 300px;
+    font-family:cursive ;
+    border-radius: 20px;    color: white;
+}
+.card:hover{   
+    background-color: rgb(83 75 75 / 70%);
+    cursor: pointer;
+}
+h3{
+    color: white;
+    font-size: 24px;
+    text-decoration:underline overline red;
+}
+ .card p{
+    color: white;
+    font-family: cursive;
+ }
+
+ .logosec1{
+     height: 40px;
+     width: 40px;
+     filter: saturate(8);
+ }
+
+#sec3{
+    color: white;
+    padding-top: 20px;
+    font-size: 36px;
+    text-decoration:underline gold;
+    margin-top: 4px;
+    height: 250px;
+    background:no-repeat center center/cover url('/files/bg3.jpg');
+}
+
+#sec3 p{
+    color: white;
+    background-color: rgb(3 3 3 / 51%);
+    width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    margin:30px auto ;
+    margin-top: 0px;
+}
+#sec3 p:hover{
+    background-color: rgb(3 3 3 / 71%);
+}
+.sp{
+    margin: 20px 30px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.sp:hover{
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+
+h4{
+    width: 300px;
+    color: black;
+    margin: auto;
+    background-color:gold ; 
+    text-decoration: underline;
+    border-radius:20px ;
+}
+h4:hover{
+    padding: 5px;
+    cursor: grab;
+}
+
+footer{
+    background-color: rgb(5, 5, 5);
+    height: 25px;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 7px;
+    padding: 5px 0px;
+}
+footer:hover{
+    text-decoration: underline;
+    cursor: grab;
+}
+
+@media only screen and (max-width:1160px){
+    #sec2{
+        height: 560px;
+    }
+}

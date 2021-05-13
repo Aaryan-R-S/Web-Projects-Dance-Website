@@ -1,0 +1,39 @@
+extends layout.pug
+
+block scripts
+  script(src='/files/js.js')
+  script(src="https://kit.fontawesome.com/39afa5edab.js" crossorigin="anonymous")
+
+block style
+  style
+   include ../files/css.css
+   include ../files/cssl.css
+
+block content 
+   form(action="#")
+     div.cont
+       h1
+         i(class="fa fa-user")
+         br
+         div Login to ARS Universe!
+         br
+       div.box
+         i(class="fa fa-envelope-o")
+         input(type="email" name="email" id="email" placeholder="Enter your Email Id") 
+         br
+         br
+       div.box
+         i(class="fa fa-unlock-alt")
+         input(type="password"  name="password" id="password" placeholder="Enter your Password")
+         br
+         br
+       input(type="submit", value="Submit" class="btn")
+       input(type="reset", value="Reset" class="btn")
+       br
+       br
+       br
+       div
+         label(for="up")  New User!
+         input(type="button", value="Sign Up!" id="up" class="btn")
+
+

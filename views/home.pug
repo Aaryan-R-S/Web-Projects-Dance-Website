@@ -1,0 +1,46 @@
+extends layout.pug
+
+block scripts
+  script(src='/files/js.js')
+
+block style
+  style
+   include ../files/css.css
+
+block content  
+    div#login
+     a(href="/login")
+       img(src="/files/enter.png" href="login.pug" target="blank")
+    section#sec1
+          div#high Welcome to ARS Dance Academy !
+          div#low Eat , Sleep , Dance & Repeat !
+
+    section#sec2 Our Missions
+      p#secc2
+        div.card 
+           h3 Perfection in Particulars
+           img(src="/files/mj.png", alt="Oops").logosec1
+           br
+           p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore voluptas adipisci eveniet magnam a atque pariatur fugit ut consequuntur!
+
+        div.card 
+           h3 Expertise in Training
+           img(src="/files/mj.png", alt="Oops").logosec1
+           br
+           p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas totam perspiciatis perferendis amet maxime ad explicabo impedit et commodi reiciendis.
+
+        div.card 
+           h3 Cultural Prospect Theme
+           img(src="/files/mj.png", alt="Oops").logosec1
+           br
+           p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas totam perspiciatis perferendis amet maxime ad explicabo impedit et commodi reiciendis.
+
+    section#sec3  
+        h4 Our Sponsors
+        br 
+        p 
+           a(href="https://mail.google.com/mail/?view=cm&fs=1&to=danceacademy@ars.com" target="_blank")
+             img(src="/files/apple.png", alt="Oops").sp
+             img(src="/files/hp.png", alt="Oops").sp
+             img(src="/files/skype.png", alt="Oops").sp
+             img(src="/files/windows.png", alt="Oops").sp
